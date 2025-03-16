@@ -1,0 +1,69 @@
+<!-- Layout for SettingsActivity with name, password, and email input -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/placeholder_image_12">
+
+    <TextView
+        android:id="@+id/developerInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This App was developed by \n JA Praveena Madhubhani (D-BCE-22-0023)"
+        android:textColor="@color/deep_pink"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/developerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Praveena"
+        android:inputType="textPersonName"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pa1234@Pa"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"/>
+
+    <ToggleButton
+        android:id="@+id/togglePasswordVisibility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="Show Password"
+        android:textOff="Hide Password"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/light_pink" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="praveenamadubani2000@gmail.com"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/saveSettingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Settings"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/red" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/red" />
+</LinearLayout>

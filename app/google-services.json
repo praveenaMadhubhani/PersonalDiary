@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "429945218422",
+    "project_id": "personaldiary-b63c6",
+    "storage_bucket": "personaldiary-b63c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429945218422:android:6883aebc4e8bb8e17f0657",
+        "android_client_info": {
+          "package_name": "com.example.personaldiary"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJdTLTFIk1Qg67kkZ_oZq3abkQJVQ3kv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

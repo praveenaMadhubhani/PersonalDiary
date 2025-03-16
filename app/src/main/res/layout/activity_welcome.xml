@@ -1,0 +1,35 @@
+<!-- Layout for WelcomeActivity -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/placeholder_image_11">
+
+    <ImageView
+        android:id="@+id/welcomeImage"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:src="@drawable/animation_7"/>
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Praveena personal diary!!!"
+        android:textSize="45sp"
+        android:textColor="@color/deep_pink"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/welcomeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:onClick="goToLoginPage"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/red" />
+
+
+</LinearLayout>
